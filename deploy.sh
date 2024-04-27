@@ -5,9 +5,9 @@ set -e
 
 # build
 npm run build
-cp -r 2020 dist
+npm run css
 cp CNAME dist
-cp assets/Katherine_Beck_Resume.pdf dist/assets
+cp assets/Blake-Fromkin-Resume.pdf dist/assets
 
 # navigate into the build output directory
 cd dist
