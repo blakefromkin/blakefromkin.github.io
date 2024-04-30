@@ -100,7 +100,7 @@
           </div>
 
           <div
-            class="relative bg-gray-200 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center"
+            class="relative bg-gray-200 py-6 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center"
           >
             <div
               class="relative max-w-md mx-auto py-12 px-4 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6"
@@ -130,20 +130,31 @@
                 >, an event-driven workflow engine that reliably orchestrates
                 complex, multi-step background jobs.
               </p>
-              <a
-                class="mt-6 sm:mx-2 block w-full py-3 px-5 text-center bg-midnightblue border border-transparent rounded-md shadow-md text-base font-medium text-white hover:opacity-70 sm:inline-block sm:w-auto"
-                href="assets/Blake-Fromkin-Resume.pdf"
-                target="_blank"
-                ><span class="text-xl mr-3"
-                  ><i class="fas fa-file-alt"></i></span
-                >Resume</a
+              <div
+                class="flex flex-col sm:flex-row justify-start sm:space-x-4 mt-6"
               >
-              <a
-                class="mt-6 sm:mx-2 block w-full py-3 px-5 text-center bg-darkturquoise border border-transparent rounded-md shadow-md text-base font-medium text-white hover:opacity-70 sm:inline-block sm:w-auto"
-                href="https://reverb-app.github.io/#case-study"
-                target="_blank"
-                >Reverb Case Study</a
-              >
+                <a
+                  class="flex items-center justify-center w-50 h-auto py-3 px-5 bg-darkturquoise border border-transparent rounded-md shadow-md text-base font-medium text-white hover:opacity-70"
+                  href="assets/Blake-Fromkin-Resume.pdf"
+                  target="_blank"
+                >
+                  <i class="fas fa-file-alt text-xl mr-3"></i>
+                  Resume
+                </a>
+
+                <a
+                  class="flex items-center justify-center w-50 h-auto py-3 px-5 bg-midnightblue border border-transparent rounded-md shadow-md text-base font-medium text-white hover:opacity-70"
+                  href="https://reverb-app.github.io/#case-study"
+                  target="_blank"
+                >
+                  <img
+                    class="h-6 w-6 object-contain mr-3"
+                    src="images/logo-transparent.png"
+                    alt="Reverb Logo"
+                  />
+                  Reverb Case Study
+                </a>
+              </div>
             </div>
           </div>
         </div>
